@@ -1,0 +1,9 @@
+<launch>
+<node pkg="gimbal_ctrl" type="gimbal_ctrl" name="gimbal_c" output="screen" />
+<param name="x_P" value="0.45"/>
+<param name="x_I" value="0.05"/>
+<param name="x_D" value="0.3"/>
+<param name="y_P" value="0.45"/>
+<param name="y_I" value="0.05"/>
+<param name="y_D" value="0.3"/>
+</launch>
